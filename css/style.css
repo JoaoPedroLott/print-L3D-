@@ -1,0 +1,293 @@
+/* ===================================================== */
+/* == 1. CONFIGURAÇÕES GLOBAIS E VARIÁVEIS (ROOT)   == */
+/* ===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap' );
+
+:root {
+  --primary-color: #007bff;
+  --dark-bg: #121212;
+  --card-bg: #1e1e1e;
+  --text-color: #e9ecef;
+  --text-muted: #8b949e;
+  --border-color: #333;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+}
+
+/* ===================================================== */
+/* == 2. CABEÇALHO (HEADER) - DESKTOP-FIRST         == */
+/* ===================================================== */
+
+header {
+  background: linear-gradient(45deg, #0d1117, #161b22);
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.logo-link {
+  flex-shrink: 0;
+}
+
+.header-logo {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+.header-texto {
+  text-align: left;
+}
+
+.header-texto h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.header-texto p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 300;
+}
+
+/* ===================================================== */
+/* == 3. LAYOUT PRINCIPAL E PÁGINA DE CATEGORIAS    == */
+/* ===================================================== */
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem; /* Aumenta o padding lateral em telas grandes */
+}
+
+/* --- Menu de Categorias (index.html) --- */
+.main-menu h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.menu-categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.categoria-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.categoria-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.1);
+  border-color: var(--primary-color);
+}
+
+.categoria-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.categoria-emoji {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.categoria-nome {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* --- Páginas de Catálogo (natal.html, etc.) --- */
+.titulo-categoria {
+  margin-bottom: 2rem;
+}
+
+.titulo-categoria h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.voltar-link {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.voltar-link:hover {
+  text-decoration: underline;
+}
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.produto-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.produto-info {
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.produto-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.produto-info p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  flex-grow: 1;
+}
+
+/* --- Carrossel de Imagens --- */
+.swiper {
+  width: 100%;
+  height: 250px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: white !important;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-color) !important;
+}
+
+/* --- Rodapé (Footer) --- */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-color);
+}
+
+/* ===================================================== */
+/* == 4. MEDIA QUERY PARA RESPONSIVIDADE (TELAS < 768px) == */
+/* ===================================================== */
+
+@media (max-width: 768px) {
+  /* --- Ajustes no Cabeçalho --- */
+  header {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .header-logo {
+    height: 50px;
+  }
+
+  .header-texto {
+    text-align: center;
+  }
+
+  .header-texto h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-texto p {
+    font-size: 0.9rem;
+  }
+
+  /* --- Ajustes no Layout Principal --- */
+  main {
+    margin-top: 1.5rem;
+    padding: 0 1rem; /* Reduz o padding lateral em telas pequenas */
+  }
+
+  /* --- Ajustes no Menu de Categorias --- */
+  .main-menu h2 {
+    font-size: 1.8rem;
+  }
+
+  .menu-categorias {
+    grid-template-columns: 1fr; /* Uma coluna para os cards de categoria */
+    gap: 1rem;
+  }
+
+  /* --- Ajustes nas Páginas de Catálogo --- */
+  .titulo-categoria h1 {
+    font-size: 1.8rem;
+  }
+
+  .catalogo-grid {
+    grid-template-columns: 1fr; /* Uma coluna para os cards de produto */
+    gap: 1.5rem;
+  }
+
+  .produto-info h3 {
+    font-size: 1.3rem; /* Título do produto um pouco menor */
+  }
+
+  .produto-info p {
+    font-size: 0.95rem; /* Descrição um pouco menor */
+  }
+
+  /* --- Ajustes no Carrossel --- */
+  .swiper-button-next, .swiper-button-prev {
+    /* Em telas de toque, é melhor que as setas estejam sempre visíveis */
+    opacity: 0.7; 
+    /* Reduz o tamanho das setas para não ocuparem tanto espaço */
+    width: 34px;
+    height: 34px;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px !important;
+  }
+}

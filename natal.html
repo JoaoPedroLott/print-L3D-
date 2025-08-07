@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print(L3D) - Catálogo de Impressões 3D</title> <!-- O título pode mudar por página -->
+
+    <!-- Favicon e Ícones - MÉTODO FINAL COM .ICO -->
+
+    <!-- 1. O .ico é o principal para a aba do navegador -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- 2. O .png/jpg ainda é útil para outros contextos, como o ícone da tela inicial em celulares (Apple) -->
+    <link rel="apple-touch-icon" href="assets/logo.jpg"> 
+
+    <!-- CSS e outros links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="assets/logo.jpg" alt="Logo Print(L3D)" class="header-logo">
+        </a>
+        <div class="header-texto">
+            <h1>Print(L3D)</h1>
+            <p>Designs inovadores e modelos de alta qualidade prontos para impressão.</p>
+        </div>
+    </header>
+
+    <main class="main-catalogo" data-json-source="data/natal.json">
+        <div class="titulo-categoria">
+            <a href="index.html" class="voltar-link">&larr; Voltar para Categorias</a>
+            <h1>🎄 Natal</h1>
+        </div>
+        <div class="catalogo-grid">
+            <!-- Os produtos serão carregados aqui pelo JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Print(L3D). Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/carregar_produtos.js"></script>
+</body>
+</html>

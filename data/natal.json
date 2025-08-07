@@ -1,0 +1,80 @@
+[
+  {
+    "titulo": "Cabana do Papai Noel - Contagem Regressiva",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/santasCabinCountdown",
+    "total_imagens": 10
+  },
+  {
+    "titulo": "Boneco de neve",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/snowInJumper",
+    "total_imagens": 7
+  },
+  {
+    "titulo": "Papai Noel",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/hookedSanta",
+    "total_imagens": 5
+  },
+  {
+    "titulo": "Biscoito decorativo de cachorro",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/sugarDogCookie",
+    "total_imagens": 4
+  },
+  {
+    "titulo": "Biscoito decorativo de dragão",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/sugarDragonCookie",
+    "total_imagens": 4
+  },
+  {
+    "titulo": "Biscoito decorativo de gato",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/sugarCatCookie",
+    "total_imagens": 4
+  },
+  {
+    "titulo": "Chaveiro de 'Ginger Bread'",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/gingerBreadFidget",
+    "total_imagens": 5
+  },
+  {
+    "titulo": "Chaveiro de 'Ginger Bread' - flat",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/gingerBreadKeyChain",
+    "total_imagens": 5
+  },
+  {
+    "titulo": "Ornamento / chaveiro papai Noel",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/mrClaus",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Ornamento / chaveiro Mr. Crumbles",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/mrCrumbles",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Ornamento / chaveiro presente de natal",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/zouGift",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Ornamento / chaveiro boneco de neve",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/snowman",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Ornamento / chaveiro de árvore de natal",
+    "descricao": "",
+    "pasta_imagens": "imagens/natal/zouChristmasTree",
+    "total_imagens": 6
+  }
+]
