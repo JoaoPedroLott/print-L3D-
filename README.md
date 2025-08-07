@@ -16,5 +16,3 @@ As imagens dos produtos são organizadas por pastas e carregadas dinamicamente n
 ---
 
 Feito com ❤️ por João Pedro.
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
