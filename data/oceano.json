@@ -4,5 +4,53 @@
     "descricao": "",
     "pasta_imagens": "imagens/oceano/mannyMantaRay",
     "total_imagens": 6
+  },
+  {
+    "titulo": "Ray, a Arraia Manta",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/rayMantaRay",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Lexy, a Arraia elétrica",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/lexyElectricRay",
+    "total_imagens": 7
+  },
+  {
+    "titulo": "Peixe palhaço",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/cuteClownFish",
+    "total_imagens": 8
+  },
+  {
+    "titulo": "Pirarucu",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/pirarucu",
+    "total_imagens": 8
+  },
+  {
+    "titulo": "Crocodilo",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/simpleCrocodile",
+    "total_imagens": 8
+  },
+  {
+    "titulo": "Suporte de hashi - Polvo",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/hashiOctopus",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Sandy, a estrela do mar",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/sandySeaStar",
+    "total_imagens": 5
+  },
+  {
+    "titulo": "Justin, o mergulhador",
+    "descricao": "",
+    "pasta_imagens": "imagens/oceano/scubaDiverJustin",
+    "total_imagens": 7
   }
 ]

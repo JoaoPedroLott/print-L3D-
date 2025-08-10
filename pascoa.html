@@ -29,32 +29,21 @@
         </div>
     </header>
 
-
-    <main class="main-menu">
-        <h2>Navegue por Categorias</h2>
-        <div class="menu-categorias">
-            <a href="natal.html" class="categoria-card">
-                <span class="categoria-emoji">🎄</span>
-                <span class="categoria-nome">Natal</span>
-            </a>
-            <a href="oceano.html" class="categoria-card">
-                <span class="categoria-emoji">🐠</span>
-                <span class="categoria-nome">Oceano</span>
-            </a>
-            <a href="pascoa.html" class="categoria-card">
-                <span class="categoria-emoji">🐰</span>
-                <span class="categoria-nome">Pascoa</span>
-            </a>
-            <!-- Adicione novas categorias aqui -->
-            <a href="#" class="categoria-card disabled">
-                <span class="categoria-emoji">⌛</span>
-                <span class="categoria-nome"> Nova categoria em breve</span>
-            </a>
+    <main class="main-catalogo" data-json-source="data/pascoa.json">
+        <div class="titulo-categoria">
+            <a href="index.html" class="voltar-link">&larr; Voltar para Categorias</a>
+            <h1>🐰 Páscoa</h1>
+        </div>
+        <div class="catalogo-grid">
+            <!-- Os produtos serão carregados aqui pelo JavaScript -->
         </div>
     </main>
 
     <footer>
         <p>&copy; 2025 Print(L3D). Todos os direitos reservados.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/carregar_produtos.js"></script>
 </body>
 </html>
