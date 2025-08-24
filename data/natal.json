@@ -1,80 +1,62 @@
 [
   {
-    "titulo": "Cabana do Papai Noel - Contagem Regressiva",
-    "descricao": "",
-    "pasta_imagens": "imagens/natal/santasCabinCountdown",
-    "total_imagens": 10
-  },
-  {
     "titulo": "Boneco de neve",
-    "descricao": "",
+    "descricao": "Grande <br>Preço varejo: R$ 60,00. <br>Preço atacado: R$ 40,00 (a partir de 2 unidades). <br> Tamanho aproximado: 13cm <br><br>Médio <br>Preço varejo: R$ 40,00. <br>Preço atacado: R$ 18,00 (a partir de 3 unidades). <br> Tamanho aproximado: 9cm <br><br>Pequeno <br>Preço varejo: R$ 20,00. <br>Preço atacado: R$ 8,00 (a partir de 8 unidades). <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/snowInJumper",
     "total_imagens": 7
   },
   {
     "titulo": "Papai Noel",
-    "descricao": "",
+    "descricao": "Grande <br>Preço varejo: R$ 50,00. <br>Preço atacado: R$ 25,00 (a partir de 3 unidades). <br> Tamanho aproximado: 10cm <br><br>Médio <br>Preço varejo: R$ 25,00. <br>Preço atacado: R$ 12,00 (a partir de 8 unidades). <br> Tamanho aproximado: 7,5cm <br><br>Pequeno <br>Preço varejo: R$ 15,00. <br>Preço atacado: R$ 8,00 (a partir de 9 unidades).<br>Preço atacado: R$ 6,00 (a partir de 18 unidades). <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/hookedSanta",
     "total_imagens": 5
   },
   {
+    "titulo": "Chaveiro de 'Ginger Bread'",
+    "descricao": "Grande <br> Preço varejo: R$ 10,00. <br>Preço atacado: R$ 5,50 (a partir de 3 unidades). <br>Preço atacado: R$ 5,00 (a partir de 6 unidades). <br> Tamanho aproximado: 7cm <br><br> Medio <br> Preço varejo: R$ 9,00. <br>Preço atacado: R$ 4,50 (a partir de 6 unidades). <br>Preço atacado: R$ 4,00 (a partir de 12 unidades). <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/natal/gingerBreadKeyChain",
+    "total_imagens": 5
+  },
+  {
     "titulo": "Biscoito decorativo de cachorro",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 20,00. <br>Preço atacado: R$ 9,00 (a partir de 4 unidades). <br>Preço atacado: R$ 8,00 (a partir de 8 unidades). <br> Tamanho aproximado: 7cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/sugarDogCookie",
     "total_imagens": 4
   },
   {
     "titulo": "Biscoito decorativo de dragão",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 25,00. <br>Preço atacado: R$ 10,00 (a partir de 8 unidades). <br> Tamanho aproximado: 8cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/sugarDragonCookie",
     "total_imagens": 4
   },
   {
     "titulo": "Biscoito decorativo de gato",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 20,00. <br>Preço atacado: R$ 9,00 (a partir de 4 unidades). <br>Preço atacado: R$ 8,00 (a partir de 8 unidades). <br> Tamanho aproximado: 7cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/sugarCatCookie",
     "total_imagens": 4
   },
   {
-    "titulo": "Chaveiro de 'Ginger Bread'",
-    "descricao": "",
-    "pasta_imagens": "imagens/natal/gingerBreadFidget",
-    "total_imagens": 5
-  },
-  {
-    "titulo": "Chaveiro de 'Ginger Bread' - flat",
-    "descricao": "",
-    "pasta_imagens": "imagens/natal/gingerBreadKeyChain",
-    "total_imagens": 5
-  },
-  {
-    "titulo": "Ornamento / chaveiro papai Noel",
-    "descricao": "",
-    "pasta_imagens": "imagens/natal/mrClaus",
-    "total_imagens": 6
-  },
-  {
     "titulo": "Ornamento / chaveiro Mr. Crumbles",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 10,00. <br>Preço atacado: R$ 5,00 (a partir de 10 unidades). <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/mrCrumbles",
     "total_imagens": 6
   },
   {
-    "titulo": "Ornamento / chaveiro presente de natal",
-    "descricao": "",
-    "pasta_imagens": "imagens/natal/zouGift",
-    "total_imagens": 6
-  },
-  {
     "titulo": "Ornamento / chaveiro boneco de neve",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 10,00. <br>Preço atacado: R$ 5,00 (a partir de 10 unidades). <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/snowman",
     "total_imagens": 6
   },
   {
     "titulo": "Ornamento / chaveiro de árvore de natal",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 10,00. <br>Preço atacado: R$ 5,00 (a partir de 10 unidades). <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/natal/zouChristmasTree",
+    "total_imagens": 6
+  },
+  {
+    "titulo": "Ornamento / chaveiro presente de natal",
+    "descricao": "Opcao 1 <br> Preço varejo: R$ 15,00. <br>Preço atacado: R$ 8,00 (a partir de 10 unidades). <br> Tamanho aproximado: 5cm <br><br> Opcao 2 - Presente com cor única <br> Preço varejo: R$ 12,00. <br>Preço atacado: R$ 6,00 (a partir de 10 unidades). <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/natal/zouGift",
     "total_imagens": 6
   }
 ]

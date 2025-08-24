@@ -82,7 +82,7 @@ main {
 .menu-categorias {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 
 .categoria-card {
@@ -143,8 +143,8 @@ main {
 
 .catalogo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 1.8rem;
 }
 
 .produto-card {
@@ -173,7 +173,7 @@ main {
 
 .produto-info p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--text-muted);
   font-weight: 300;
   line-height: 1.5;

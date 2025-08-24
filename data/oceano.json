@@ -1,56 +1,44 @@
 [
   {
     "titulo": "Manny, a Arraia Manta",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 75,00. <br>Preço atacado: R$ 42,00 (a partir de 3 unidades). <br>Preço atacado: R$ 40,00 (a partir de 5 unidades). <br> Tamanho aproximado: 21cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/oceano/mannyMantaRay",
     "total_imagens": 6
   },
   {
     "titulo": "Ray, a Arraia Manta",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 60,00. <br>Preço atacado: R$ 32,00 (a partir de 3 unidades). <br>Preço atacado: R$ 30,00 (a partir de 5 unidades). <br> Tamanho aproximado: 15cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/oceano/rayMantaRay",
     "total_imagens": 6
   },
   {
     "titulo": "Lexy, a Arraia elétrica",
-    "descricao": "",
+    "descricao": "Preço varejo: R$ 45,00. <br>Preço atacado: R$ 22,00 (a partir de 3 unidades). <br>Preço atacado: R$ 20,00 (a partir de 5 unidades). <br> Tamanho aproximado: 14cm<br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/oceano/lexyElectricRay",
     "total_imagens": 7
   },
   {
-    "titulo": "Peixe palhaço",
-    "descricao": "",
-    "pasta_imagens": "imagens/oceano/cuteClownFish",
-    "total_imagens": 8
-  },
-  {
-    "titulo": "Pirarucu",
-    "descricao": "",
-    "pasta_imagens": "imagens/oceano/pirarucu",
-    "total_imagens": 8
-  },
-  {
-    "titulo": "Crocodilo",
-    "descricao": "",
-    "pasta_imagens": "imagens/oceano/simpleCrocodile",
-    "total_imagens": 8
-  },
-  {
-    "titulo": "Suporte de hashi - Polvo",
-    "descricao": "",
-    "pasta_imagens": "imagens/oceano/hashiOctopus",
-    "total_imagens": 6
-  },
-  {
     "titulo": "Sandy, a estrela do mar",
-    "descricao": "",
+    "descricao": "Media <br>Preço varejo: R$ 45,00. <br>Preço atacado: R$ 22,00 (a partir de 3 unidades). <br>Preço atacado: R$ 20,00 (a partir de 5 unidades). <br> Tamanho aproximado: 13cm <br><br>Grande <br>Preço varejo: R$ 65,00. <br>Preço atacado: R$ 32,00 (a partir de 3 unidades). <br>Preço atacado: R$ 30,00 (a partir de 6 unidades). <br> Tamanho aproximado: 16cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/oceano/sandySeaStar",
     "total_imagens": 5
   },
   {
-    "titulo": "Justin, o mergulhador",
-    "descricao": "",
-    "pasta_imagens": "imagens/oceano/scubaDiverJustin",
+    "titulo": "Skubbies Chompy (Labubu)",
+    "descricao": "Pequeno <br>Preço varejo: R$ 10,00. <br>Preço atacado: R$ 6,00 (a partir de 10 unidades). <br>Preço atacado: R$ 5,00 (a partir de 20 unidades). <br> Tamanho aproximado: 5cm <br><br>Grande <br>Preço varejo: R$ 45,00. <br>Preço atacado: R$ 22,00 (a partir de 4 unidades). <br>Preço atacado: R$ 20,00 (a partir de 8 unidades). <br> Tamanho aproximado: 10cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/oceano/skubbiesChompy",
+    "total_imagens": 9
+  },
+  {
+    "titulo": "Morsa",
+    "descricao": "Pequena <br>Preço varejo: R$ 20,00. <br>Preço atacado: R$ 12,00 (a partir de 3 unidades). <br>Preço atacado: R$ 10,00 (a partir de 6 unidades). <br> Tamanho aproximado: 8cm <br><br>Grande <br>Preço varejo: R$ 28,00. <br>Preço atacado: R$ 16,00 (a partir de 3 unidades). <br>Preço atacado: R$ 14,00 (a partir de 6 unidades). <br> Tamanho aproximado: 11cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/oceano/atlanticWarlus",
     "total_imagens": 7
+  },
+  {
+    "titulo": "Crocodilo",
+    "descricao": "Pequeno <br>Preço varejo: R$ 18,00. <br>Preço atacado: R$ 10,00 (a partir de 3 unidades). <br>Preço atacado: R$ 8,00 (a partir de 6 unidades). <br> Tamanho aproximado: 10cm <br><br>Grande <br>Preço varejo: R$ 35,00. <br>Preço atacado: R$ 19,00 (a partir de 3 unidades). <br>Preço atacado: R$ 17,00 (a partir de 5 unidades). <br> Tamanho aproximado: 16cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/oceano/simpleCrocodile",
+    "total_imagens": 8
   }
 ]
