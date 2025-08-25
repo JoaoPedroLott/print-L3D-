@@ -1,8 +1,50 @@
 [
   {
+    "titulo": "Bun Sensei",
+    "descricao": "Preço varejo: R$ 12,00. <br>Preço atacado: R$ 6,00 (a partir de 10 unidades) <br> Tamanho aproximado: 9cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/bunSensei",
+    "total_imagens": 6
+  },
+  {
     "titulo": "Chocomelt",
-    "descricao": "Preço varejo: R$ 60,00. <br>Preço atacado: R$ 42,00 (a partir de 2 unidades). <br>Preço atacado: R$ 40,00 (a partir de 3 unidades). <br> Tamanho aproximado: 17cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "descricao": "Preço varejo: R$ 60,00 <br>Preço atacado: R$ 42,00 (a partir de 2 unidades) <br>Preço atacado: R$ 40,00 (a partir de 3 unidades) <br> Tamanho aproximado: 17cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
     "pasta_imagens": "imagens/pascoa/chocoMelt",
     "total_imagens": 6
+  },
+  {
+    "titulo": "ChocoBrick",
+    "descricao": "Grande: <br> Preço varejo: R$ 70,00 <br>Preço atacado: R$ 50,00 (a partir de 2 unidades) <br> Tamanho aproximado: 15cm <br><br> Médio: <br> Preço varejo: R$ 30,00 <br>Preço atacado: R$ 15,00 (a partir de 2 unidades) <br> Tamanho aproximado: 7cm <br><br> Pequeno: <br> Preço varejo: R$ 20,00 <br>Preço atacado: R$ 12,00 (a partir de 3 unidades) <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/chocoBrick",
+    "total_imagens": 4
+  },
+  {
+    "titulo": "Ovo almofadado luxuoso",
+    "descricao": "Grande: <br> Preço varejo: R$ 70,00 <br>Preço atacado: R$ 50,00 (a partir de 2 unidades) <br> Tamanho aproximado: 15cm <br><br> Médio: <br> Preço varejo: R$ 30,00 <br>Preço atacado: R$ 15,00 (a partir de 2 unidades) <br> Tamanho aproximado: 7cm <br><br> Pequeno: <br> Preço varejo: R$ 20,00 <br>Preço atacado: R$ 10,00 (a partir de 3 unidades) <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/cushionEgg",
+    "total_imagens": 5
+  },
+  {
+    "titulo": "Ovo esculpido",
+    "descricao": "Grande: <br> Preço varejo: R$ 60,00 <br>Preço atacado: R$ 30,00 (a partir de 2 unidades) <br> Tamanho aproximado: 15cm <br><br> Médio: <br> Preço varejo: R$ 22,00 <br>Preço atacado: R$ 12,00 (a partir de 2 unidades) <br> Tamanho aproximado: 7cm <br><br> Pequeno: <br> Preço varejo: R$ 16,00 <br>Preço atacado: R$ 8,00 (a partir de 3 unidades) <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/springCarvesEggs",
+    "total_imagens": 10
+  },
+  {
+    "titulo": "Ovos de chocolate",
+    "descricao": "Grande: <br> Preço varejo: R$ 45,00 <br>Preço atacado: R$ 25,00 (a partir de 3 unidades) <br> Tamanho aproximado: 12cm <br><br> Médio: <br> Preço varejo: R$ 25,00 <br>Preço atacado: R$ 12,00 (a partir de 3 unidades) <br> Tamanho aproximado: 7cm <br><br> Pequeno: <br> Preço varejo: R$ 10,00 <br>Preço atacado: R$ 5,00 (a partir de 5 unidades) <br> Tamanho aproximado: 6cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/cocoaSwirls",
+    "total_imagens": 9
+  },
+  {
+    "titulo": "Ovos para pintura",
+    "descricao": "Médio: <br> Preço varejo: R$ 15,00 <br>Preço atacado: R$ 8,00 (a partir de 5 unidades) <br> Tamanho aproximado: 7cm <br><br> Pequeno: <br> Preço varejo: R$ 12,00 <br>Preço atacado: R$ 5,00 (a partir de 5 unidades) <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/paintEggs",
+    "total_imagens": 11
+  },
+  {
+    "titulo": "Ovos decorativos",
+    "descricao": "Grande: <br> Preço varejo: R$ 35,00 <br>Preço atacado: R$ 22,00 (a partir de 2 unidades) <br> Tamanho aproximado: 10cm <br><br> Pequeno: <br> Preço varejo: R$ 12,00 <br>Preço atacado: R$ 6,00 (a partir de 5 unidades) <br> Tamanho aproximado: 5cm <br><br>Disponível em diversas cores. Consulte as opções de cores para personalização.",
+    "pasta_imagens": "imagens/pascoa/easterEggs",
+    "total_imagens": 9
   }
 ]
