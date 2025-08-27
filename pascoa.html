@@ -17,8 +17,9 @@
     <!-- CSS e outros links -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
+<body id="page-top">
     <header>
         <a href="index.html" class="logo-link">
             <img src="assets/logo.jpg" alt="Logo Print(L3D)" class="header-logo">
@@ -39,11 +40,34 @@
         </div>
     </main>
 
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://api.whatsapp.com/send?phone=5531993373954" class="whatsapp-float" target="_blank">
+        <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.37 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 9.27 20.92 6.83 19.05 4.96C17.18 3.08 14.74 2 12.04 2M12.04 20.13C10.56 20.13 9.11 19.76 7.81 19.05L7.44 18.83L4.42 19.65L5.26 16.72L5.03 16.34C4.25 15.03 3.83 13.5 3.83 11.91C3.83 7.39 7.54 3.68 12.04 3.68C14.23 3.68 16.3 4.54 17.87 6.12C19.45 7.69 20.31 9.76 20.31 11.91C20.31 16.43 16.59 20.13 12.04 20.13M17.26 14.44C17.08 14.35 15.79 13.71 15.54 13.62C15.29 13.53 15.11 13.49 14.93 13.74C14.74 13.98 14.11 14.74 13.96 14.93C13.82 15.11 13.68 15.16 13.43 15.07C13.18 14.98 12.17 14.64 11 13.73C10.09 13.06 9.41 12.22 9.27 11.98C9.12 11.74 9.27 11.6 9.41 11.46C9.54 11.32 9.7 11.13 9.85 10.96C10 10.78 10.04 10.64 10.14 10.45C10.23 10.26 10.18 10.12 10.1 9.98C10.01 9.84 9.32 8.2 9.07 7.63C8.82 7.06 8.58 7.15 8.44 7.15H8.01C7.87 7.15 7.59 7.2 7.35 7.44C7.1 7.69 6.46 8.32 6.46 9.71C6.46 11.1 7.38 12.42 7.52 12.61C7.67 12.8 9.35 15.22 11.75 16.22C13.68 17.01 14.13 16.82 14.59 16.78C15.04 16.73 16.34 16.09 16.58 15.46C16.83 14.83 16.83 14.29 16.78 14.19C16.74 14.1 16.56 14.01 16.37 13.91Z" />
+        </svg>
+    </a>
+
     <footer>
+        <!-- AÇÕES DO RODAPÉ -->
+        <div class="footer-actions">
+            <a href="index.html#categorias" class="footer-btn">
+                &larr; Todas as Categorias
+            </a>
+            <a href="#page-top" class="footer-btn">
+                Voltar ao Topo &uarr;
+            </a>
+        </div>
         <p>&copy; 2025 Print(L3D). Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/carregar_produtos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700, // Duração da animação em ms
+        once: true, // Animação acontece apenas uma vez
+      } );
+    </script>
 </body>
 </html>

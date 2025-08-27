@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const produtoCard = document.createElement('div');
                 produtoCard.className = 'produto-card';
+                produtoCard.setAttribute('data-aos', 'fade-up');
                 produtoCard.innerHTML = `
                     <div class="swiper">
                         <div class="swiper-wrapper">${imagensHtml}</div>

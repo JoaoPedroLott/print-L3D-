@@ -1,16 +1,27 @@
+/* =================================================================== */
+/* ==                                                               == */
+/* ==          ARQUIVO DE ESTILOS GERAL - PRINT(L3D)                == */
+/* ==                                                               == */
+/* =================================================================== */
+
 /* ===================================================== */
-/* == 1. CONFIGURAÇÕES GLOBAIS E VARIÁVEIS (ROOT)   == */
+/* 1. CONFIGURAÇÕES GLOBAIS E TEMA DE CORES              */
 /* ===================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap' );
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* TEMA "ROXO CÓSMICO" */
 :root {
-  --primary-color: #007bff;
-  --dark-bg: #121212;
-  --card-bg: #1e1e1e;
-  --text-color: #e9ecef;
-  --text-muted: #8b949e;
-  --border-color: #333;
+  --primary-color: #F8D800;   /* Amarelo-dourado vibrante para contraste */
+  --dark-bg: #241b2f;         /* Roxo bem escuro, quase preto */
+  --card-bg: #3a2d4a;         /* Roxo um pouco mais claro para os cards */
+  --text-color: #f0f0f0;       /* Branco suave */
+  --text-muted: #b0a8ba;       /* Cinza com um toque de lavanda */
+  --border-color: #4f4163;     /* Cor da borda sutil */
 }
 
 body {
@@ -21,13 +32,13 @@ body {
 }
 
 /* ===================================================== */
-/* == 2. CABEÇALHO (HEADER) - DESKTOP-FIRST         == */
+/* 2. ESTILOS DO CABEÇALHO (HEADER)                      */
 /* ===================================================== */
 
 header {
-  background: linear-gradient(45deg, #0d1117, #161b22);
+  background: linear-gradient(180deg, var(--card-bg), var(--dark-bg));
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 10px rgba(248, 216, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,6 +53,11 @@ header {
   height: 70px;
   width: auto;
   display: block;
+  transition: filter 0.3s ease;
+}
+
+.header-logo:hover {
+  filter: drop-shadow(0 0 8px var(--primary-color));
 }
 
 .header-texto {
@@ -63,18 +79,126 @@ header {
 }
 
 /* ===================================================== */
-/* == 3. LAYOUT PRINCIPAL E PÁGINA DE CATEGORIAS    == */
+/* 3. LAYOUT DA PÁGINA PRINCIPAL (INDEX.HTML)            */
 /* ===================================================== */
 
 main {
   max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1.5rem; /* Aumenta o padding lateral em telas grandes */
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
-/* --- Menu de Categorias (index.html) --- */
-.main-menu h2 {
+/* --- Seção Hero (Boas-Vindas) --- */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.hero-texto {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero-texto h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.hero-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.hero-cta-btn {
+  background-color: var(--primary-color);
+  color: #3d2c42; /* Contraste forte com o botão verde */
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+}
+
+.hero-cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(168, 224, 99, 0.2);
+}
+
+.hero-imagem {
+  flex: 1;
+}
+
+.hero-imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Seção "Como Funciona" --- */
+.como-funciona-section {
   text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--card-bg);
+  border-radius: 16px;
+  margin-bottom: 5rem;
+}
+
+.como-funciona-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+}
+
+.passos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.passo-card {
+  background-color: var(--dark-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.passo-icone {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.passo-card h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.passo-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* --- Seção de Categorias --- */
+.categorias-section {
+  padding-top: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.categorias-section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
@@ -82,7 +206,7 @@ main {
 .menu-categorias {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.3rem;
+  gap: 1.5rem;
 }
 
 .categoria-card {
@@ -98,7 +222,7 @@ main {
 
 .categoria-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.1);
+  box-shadow: 0 8px 16px rgba(168, 224, 99, 0.1);
   border-color: var(--primary-color);
 }
 
@@ -118,9 +242,12 @@ main {
   font-weight: 700;
 }
 
-/* --- Páginas de Catálogo (natal.html, etc.) --- */
+/* ===================================================== */
+/* 4. LAYOUT DAS PÁGINAS DE CATÁLOGO                     */
+/* ===================================================== */
+
 .titulo-categoria {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .titulo-categoria h1 {
@@ -135,16 +262,17 @@ main {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 700;
+  transition: transform 0.2s ease;
 }
 
 .voltar-link:hover {
-  text-decoration: underline;
+  transform: translateX(-5px);
 }
 
 .catalogo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  gap: 1.8rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
 }
 
 .produto-card {
@@ -155,6 +283,12 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .produto-info {
@@ -173,7 +307,7 @@ main {
 
 .produto-info p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-muted);
   font-weight: 300;
   line-height: 1.5;
@@ -193,7 +327,8 @@ main {
   object-fit: contain;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   color: white !important;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
@@ -208,86 +343,182 @@ main {
   background-color: var(--primary-color) !important;
 }
 
-/* --- Rodapé (Footer) --- */
+/* ===================================================== */
+/* 5. COMPONENTES GLOBAIS (FOOTER, WHATSAPP)             */
+/* ===================================================== */
+
+/* --- Rodapé e Botões de Ação --- */
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   color: var(--text-muted);
   border-top: 1px solid var(--border-color);
 }
 
+.footer-actions {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-btn {
+  background-color: var(--card-bg);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.footer-btn:hover {
+  background-color: var(--primary-color);
+  color: #3d2c42; /* Mesmo roxo escuro para o texto no hover */
+}
+
+/* --- Botão Flutuante de WhatsApp --- */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  fill: #FFF;
+  width: 38px;
+  height: 38px;
+  margin-top: 11px;
+}
+
 /* ===================================================== */
-/* == 4. MEDIA QUERY PARA RESPONSIVIDADE (TELAS < 768px) == */
+/* 6. MEDIA QUERY ÚNICA PARA RESPONSIVIDADE (Telas < 768px) */
 /* ===================================================== */
 
 @media (max-width: 768px) {
-  /* --- Ajustes no Cabeçalho --- */
+  /* --- Cabeçalho --- */
   header {
     flex-direction: column;
     gap: 0.5rem;
-    padding: 1rem;
   }
-
   .header-logo {
     height: 50px;
   }
-
   .header-texto {
     text-align: center;
   }
-
   .header-texto h1 {
     font-size: 1.5rem;
   }
-
   .header-texto p {
     font-size: 0.9rem;
   }
 
-  /* --- Ajustes no Layout Principal --- */
+  /* --- Layout Principal --- */
   main {
-    margin-top: 1.5rem;
-    padding: 0 1rem; /* Reduz o padding lateral em telas pequenas */
+    padding: 0 1rem;
   }
 
-  /* --- Ajustes no Menu de Categorias --- */
-  .main-menu h2 {
+  /* --- Seção Hero --- */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .hero-texto {
+    padding-right: 0;
+    order: 2;
+  }
+  .hero-imagem {
+    order: 1;
+    margin-bottom: 2rem;
+  }
+  .hero-texto h2 {
+    font-size: 2rem;
+  }
+
+  /* --- Seção "Como Funciona" --- */
+  .como-funciona-section {
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+  }
+  .como-funciona-section h2 {
     font-size: 1.8rem;
   }
+  .passos-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
 
+  /* --- Seção de Categorias --- */
+  .categorias-section {
+    padding-top: 2rem;
+  }
+  .categorias-section h2 {
+    font-size: 1.8rem;
+  }
   .menu-categorias {
-    grid-template-columns: 1fr; /* Uma coluna para os cards de categoria */
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
-  /* --- Ajustes nas Páginas de Catálogo --- */
+  /* --- Páginas de Catálogo --- */
   .titulo-categoria h1 {
     font-size: 1.8rem;
   }
-
   .catalogo-grid {
-    grid-template-columns: 1fr; /* Uma coluna para os cards de produto */
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-
   .produto-info h3 {
-    font-size: 1.3rem; /* Título do produto um pouco menor */
+    font-size: 1.3rem;
   }
-
   .produto-info p {
-    font-size: 0.95rem; /* Descrição um pouco menor */
+    font-size: 0.95rem;
   }
 
-  /* --- Ajustes no Carrossel --- */
-  .swiper-button-next, .swiper-button-prev {
-    /* Em telas de toque, é melhor que as setas estejam sempre visíveis */
-    opacity: 0.7; 
-    /* Reduz o tamanho das setas para não ocuparem tanto espaço */
+  /* --- Carrossel --- */
+  .swiper-button-next,
+  .swiper-button-prev {
+    opacity: 0.7;
     width: 34px;
     height: 34px;
   }
-  .swiper-button-next:after, .swiper-button-prev:after {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
     font-size: 16px !important;
+  }
+
+  /* --- WhatsApp --- */
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+  .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
   }
 }
