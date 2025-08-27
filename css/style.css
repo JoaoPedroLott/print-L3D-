@@ -139,7 +139,7 @@ main {
 }
 
 .hero-imagem img {
-  width: 100%;
+  width: 60%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -521,4 +521,69 @@ footer {
     height: 30px;
     margin-top: 10px;
   }
+}
+
+/* ===================================================== */
+/* == NOVOS ESTILOS PARA PRODUTOS COM VARIANTES       == */
+/* ===================================================== */
+
+/* Remove o parágrafo de descrição, já que não o usamos mais */
+.produto-descricao {
+  display: none;
+}
+
+/* Container para todas as variantes */
+.produto-variantes-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Espaço entre os cards de cada variante */
+}
+
+/* Card para uma única variante (Pequeno, Médio, etc.) */
+.variante-card {
+  background-color: var(--dark-bg); /* Um pouco mais escuro que o fundo do card */
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.variante-opcao {
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.variante-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Espaço entre as linhas (Tamanho, Varejo, etc.) */
+}
+
+.variante-specs li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+.variante-specs li strong {
+  color: var(--text-muted);
+  margin-right: 1rem;
+}
+
+/* Comentário fixo no final */
+.produto-comentario {
+  margin: 1.5rem 0 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-style: italic;
 }

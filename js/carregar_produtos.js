@@ -14,13 +14,47 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             produtos.forEach(produto => {
+                // ==========================================================
+                // == PASSO 1: GERAR O HTML DAS IMAGENS (A PARTE QUE FALTAVA) ==
+                // ==========================================================
                 let imagensHtml = '';
                 for (let i = 1; i <= produto.total_imagens; i++) {
-                    // Tenta com .jpg e .png, adicione outras extensões se precisar
-                    const caminhoBase = `${produto.pasta_imagens}/${i}`;
-                    imagensHtml += `<div class="swiper-slide"><img src="${caminhoBase}.jpg" alt="${produto.titulo} - Imagem ${i}" loading="lazy"></div>`;
+                    // Assumimos que as imagens são .jpg. Se tiver outras, precisaria de mais lógica.
+                    imagensHtml += `<div class="swiper-slide"><img src="${produto.pasta_imagens}/${i}.jpg" alt="${produto.titulo} - Imagem ${i}" loading="lazy"></div>`;
                 }
 
+                // ==========================================================
+                // == PASSO 2: GERAR O HTML DAS VARIANTES                  ==
+                // ==========================================================
+                let variantesHtml = '';
+                if (produto.variantes && produto.variantes.length > 0) {
+                    variantesHtml += '<div class="produto-variantes-container">';
+                    produto.variantes.forEach(variante => {
+                        variantesHtml += `
+                            <div class="variante-card">
+                                <h4 class="variante-opcao">${variante.opcao}</h4>
+                                <ul class="variante-specs">
+                                    <li><strong>Tamanho:</strong> ${variante.tamanho}</li>
+                                    <li><strong>Varejo:</strong> ${variante.valor_varejo}</li>
+                                    <li><strong>Atacado:</strong> ${variante.valor_atacado}</li>
+                                </ul>
+                            </div>
+                        `;
+                    });
+                    variantesHtml += '</div>';
+                }
+
+                // ==========================================================
+                // == PASSO 3: GERAR O HTML DO COMENTÁRIO FIXO             ==
+                // ==========================================================
+                let comentarioHtml = '';
+                if (produto.comentario_fixo) {
+                    comentarioHtml = `<p class="produto-comentario">${produto.comentario_fixo}</p>`;
+                }
+
+                // ==========================================================
+                // == PASSO 4: MONTAR O CARD COMPLETO DO PRODUTO           ==
+                // ==========================================================
                 const produtoCard = document.createElement('div');
                 produtoCard.className = 'produto-card';
                 produtoCard.setAttribute('data-aos', 'fade-up');
@@ -33,7 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="produto-info">
                         <h3>${produto.titulo}</h3>
-                        <p>${produto.descricao.replace(/\n/g, '  ')}</p>
+                        ${variantesHtml}
+                        ${comentarioHtml}
                     </div>
                 `;
                 catalogoGrid.appendChild(produtoCard);
