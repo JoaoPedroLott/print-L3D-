@@ -1,0 +1,159 @@
+[
+    {
+        "titulo": "American Bully 2",
+        "pasta_imagens": "imagens/pets/americanBully_2",
+        "total_imagens": 11,
+        "variantes": [
+        {
+            "opcao": "Pequeno",
+            "tamanho": "xcm (aprox.)",
+            "valor_varejo": "R$ xx,00",
+            "valor_atacado": "R$ xx,00 a partir de x unidades"
+        },
+        {
+            "opcao": "Médio",
+            "tamanho": "xcm (aprox.)",
+            "valor_varejo": "R$ xx,00",
+            "valor_atacado": "R$ xx,00 a partir de x unidades"
+        },
+        {
+            "opcao": "Grande",
+            "tamanho": "xcm (aprox.)",
+            "valor_varejo": "R$ xx,00",
+            "valor_atacado": "R$ xx,00 a partir de x unidades"
+        }
+        ],
+        "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+    },
+    {
+    "titulo": "Corgi",
+    "pasta_imagens": "imagens/pets/corgi",
+    "total_imagens": 11,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Médio",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Chihuahua",
+    "pasta_imagens": "imagens/pets/richardChihuahua",
+    "total_imagens": 10,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Médio",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Gato esfinge",
+    "pasta_imagens": "imagens/pets/sphynxCat",
+    "total_imagens": 11,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Médio",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "French Bulldog 1",
+    "pasta_imagens": "imagens/pets/frenchBulldog",
+    "total_imagens": 10,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Médio",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Gato busya",
+    "pasta_imagens": "imagens/pets/busyaCat",
+    "total_imagens": 11,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Médio",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "xcm (aprox.)",
+        "valor_varejo": "R$ xx,00",
+        "valor_atacado": "R$ xx,00 a partir de x unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  }
+
+]

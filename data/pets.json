@@ -1,0 +1,98 @@
+[
+  {
+    "titulo": "Husky",
+    "pasta_imagens": "imagens/pets/sledDog",
+    "total_imagens": 9,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "6cm (aprox.)",
+        "valor_varejo": "R$ 18,00",
+        "valor_atacado": "R$ 9,00 a partir de 9 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "American Bully",
+    "pasta_imagens": "imagens/pets/americanBully",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "6cm (aprox.)",
+        "valor_varejo": "R$ 20,00",
+        "valor_atacado": "R$ 10,00 a partir de 9 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Bulldog Francês",
+    "pasta_imagens": "imagens/pets/denisFrenchBulldog",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 14,00",
+        "valor_atacado": "R$ 7,00 a partir de 10 unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "14cm (aprox.)",
+        "valor_varejo": "R$ 40,00",
+        "valor_atacado": "R$ 20,00 a partir de 2 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Pug 1",
+    "pasta_imagens": "imagens/pets/pug",
+    "total_imagens": 8,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "5cm (aprox.)",
+        "valor_varejo": "R$ 16,00",
+        "valor_atacado": "R$ 8,00 a partir de 9 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Pug 2",
+    "pasta_imagens": "imagens/pets/frankPug",
+    "total_imagens": 8,
+    "variantes": [
+      {
+        "opcao": "Pequeno",
+        "tamanho": "6cm (aprox.)",
+        "valor_varejo": "R$ 16,00",
+        "valor_atacado": "R$ 8,00 a partir de 9 unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "12cm (aprox.)",
+        "valor_varejo": "R$ 40,00",
+        "valor_atacado": "R$ 20,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Gato fofinho",
+    "pasta_imagens": "imagens/pets/fluffyKitten",
+    "total_imagens": 9,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "6cm (aprox.)",
+        "valor_varejo": "R$ 16,00",
+        "valor_atacado": "R$ 8,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  }
+]
