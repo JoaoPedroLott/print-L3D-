@@ -94,5 +94,19 @@
       }
     ],
     "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Border Collie",
+    "pasta_imagens": "imagens/pets/borderCollie",
+    "total_imagens": 2,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 15,00",
+        "valor_atacado": "R$ 8,00 a partir de 6 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
   }
 ]

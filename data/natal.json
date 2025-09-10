@@ -174,5 +174,19 @@
       }
     ],
     "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Imãs de Gingerbread",
+    "pasta_imagens": "imagens/natal/gingerBreadMagnets",
+    "total_imagens": 2,
+    "variantes": [
+      {
+        "opcao": "Padrão (Kit com 6 unidades)",
+        "tamanho": "4cm (aprox.)",
+        "valor_varejo": "R$ 10,00",
+        "valor_atacado": "R$ 6,00 a partir de 5 Kits"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
   }
 ]
