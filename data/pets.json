@@ -108,5 +108,103 @@
       }
     ],
     "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Darla, a Labradora",
+    "pasta_imagens": "imagens/pets/darlaLabrador",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "8cm (aprox.)",
+        "valor_varejo": "R$ 20,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Jery, o Pastor Alemão",
+    "pasta_imagens": "imagens/pets/jeryGermanShepherd",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "8cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 14,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Rufus, o Corgi",
+    "pasta_imagens": "imagens/pets/rufusCorgi",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Stella, a bulldog francês",
+    "pasta_imagens": "imagens/pets/stellaFrenchBulldog",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Berry, o Beagle",
+    "pasta_imagens": "imagens/pets/berryBeagle",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Winston, o dachshund",
+    "pasta_imagens": "imagens/pets/winstonDachshund",
+    "total_imagens": 7,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "11cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Lizzie, a poodle",
+    "pasta_imagens": "imagens/pets/lizziePoodle",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "7cm (aprox.)",
+        "valor_varejo": "R$ 25,00",
+        "valor_atacado": "R$ 12,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
   }
 ]
