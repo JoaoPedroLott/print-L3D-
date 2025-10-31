@@ -42,6 +42,20 @@
     "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
   },
   {
+    "titulo": "Igor, a Arraia",
+    "pasta_imagens": "imagens/oceano/igorRay",
+    "total_imagens": 8,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "20cm (aprox.)",
+        "valor_varejo": "R$ 65,00",
+        "valor_atacado": "R$ 35,00 a partir de 2 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
     "titulo": "Sandy, a Estrela do Mar",
     "pasta_imagens": "imagens/oceano/sandySeaStar",
     "total_imagens": 5,
@@ -117,6 +131,26 @@
         "tamanho": "16cm (aprox.)",
         "valor_varejo": "R$ 35,00",
         "valor_atacado": "R$ 17,00 a partir de 3 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Moreia articulada",
+    "pasta_imagens": "imagens/oceano/moreiaArticulada",
+    "total_imagens": 3,
+    "variantes": [
+      {
+        "opcao": "Media",
+        "tamanho": "13cm (aprox.)",
+        "valor_varejo": "R$ 18,00",
+        "valor_atacado": "R$ 6,00 a partir de 3 unidades"
+      },
+      {
+        "opcao": "Grande",
+        "tamanho": "15cm (aprox.)",
+        "valor_varejo": "R$ 20,00",
+        "valor_atacado": "R$ 8,00 a partir de 3 unidades"
       }
     ],
     "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"

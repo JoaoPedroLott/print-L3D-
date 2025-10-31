@@ -1,0 +1,86 @@
+[
+  {
+    "titulo": "Esqueleto - Ankylosaurus",
+    "pasta_imagens": "imagens/dinossauro/skeletonAnkylosaurus",
+    "total_imagens": 5,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "16cm (aprox.)",
+        "valor_varejo": "R$ 28,00",
+        "valor_atacado": "R$ 14,00 a partir de 3 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Esqueleto - Parasauro",
+    "pasta_imagens": "imagens/dinossauro/skeletonParasauro",
+    "total_imagens": 5,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "18cm (aprox.)",
+        "valor_varejo": "R$ 30,00",
+        "valor_atacado": "R$ 15,00 a partir de 3 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Esqueleto - Stegosaurus",
+    "pasta_imagens": "imagens/dinossauro/skeletonStegosaurus",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "18cm (aprox.)",
+        "valor_varejo": "R$ 30,00",
+        "valor_atacado": "R$ 15,00 a partir de 3 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Esqueleto - T-Rex",
+    "pasta_imagens": "imagens/dinossauro/skeletonTRex",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "14cm (aprox.)",
+        "valor_varejo": "R$ 26,00",
+        "valor_atacado": "R$ 13,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Esqueleto - Triceratops",
+    "pasta_imagens": "imagens/dinossauro/skeletonTriceratops",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "12cm (aprox.)",
+        "valor_varejo": "R$ 26,00",
+        "valor_atacado": "R$ 13,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  },
+  {
+    "titulo": "Esqueleto - Velociraptor",
+    "pasta_imagens": "imagens/dinossauro/skeletonVelociraptor",
+    "total_imagens": 6,
+    "variantes": [
+      {
+        "opcao": "Padrão",
+        "tamanho": "14cm (aprox.)",
+        "valor_varejo": "R$ 26,00",
+        "valor_atacado": "R$ 13,00 a partir de 4 unidades"
+      }
+    ],
+    "comentario_fixo": "As cores de todas as peças podem ser personalizadas. Entre em contato para mais detalhes!"
+  }
+]
